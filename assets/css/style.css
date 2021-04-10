@@ -1,13 +1,57 @@
 * {
     background-color: lightcyan;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
 
-/* Flexing my box skills */
+.header-top {
+position: relative;
+display: flex;
+justify-content: space-between;
+background-color: burlywood;
+}
+
+.header-top h1 {
+    background-color: crimson;
+    font-size: 46px;
+}
+.header-top nav {
+    font-size: 24px;
+    background-color: burlywood;
+    position:absolute;
+    bottom: 0;
+    right: 0;    
+}
+.header-top nav a {
+    background-color: burlywood;
+}
+.subheader, .subheader h1 {
+    display: flex;
+    background-color: purple;
+    justify-content: flex-end;
+    position: relative;
+    margin: 25px;    
+}
+.aboutme {
+    display: flex;
+}
+.aboutme header {
+    font-size: 32px;
+    border-right: 5px solid black;
+}
+.aboutme p {
+    text-indent: 5%;
+    margin: 5%;
+}
+
+
 .projects {
     flex: 5;
     /* background-color: white; */
-    padding: 20x;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -25,3 +69,10 @@
     /* flex: 1 1 1; */
     background-color: red;
 }
+
+/* .text-right {
+    justify-content: space-between;
+} 
+.text-left {
+    justify-content: space-between;
+}  */
