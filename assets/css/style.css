@@ -1,0 +1,27 @@
+* {
+    background-color: lightcyan;
+}
+
+
+/* Flexing my box skills */
+.projects {
+    flex: 5;
+    /* background-color: white; */
+    padding: 20x;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 25px; 
+}
+.bigcard {
+    flex: 10 1 auto;
+    background-color: blue;
+    width: 100%;
+    height: 500px;
+}
+.smallcard {
+    width: auto;
+    height: 250px;
+    /* flex: 1 1 1; */
+    background-color: red;
+}
