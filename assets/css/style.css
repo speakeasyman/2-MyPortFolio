@@ -6,7 +6,9 @@
     text-decoration: none;
 }
 
-
+body, #bio {
+    width: 70%;
+}
 .header-top {
 position: relative;
 display: flex;
@@ -24,6 +26,8 @@ background-color: burlywood;
     position:absolute;
     bottom: 0;
     right: 0;    
+    border-bottom: 2px solid white;
+    margin-right: 10px;
 }
 .header-top nav a {
     background-color: burlywood;
@@ -37,42 +41,54 @@ background-color: burlywood;
 }
 .aboutme {
     display: flex;
+    flex-wrap: wrap;
 }
-.aboutme header {
+.aboutme , .work h1 {
     font-size: 32px;
     border-right: 5px solid black;
 }
 .aboutme p {
     text-indent: 5%;
     margin: 5%;
+
 }
 
+main {
+    display: flex;
+    flex-wrap:wrap;
+}
 
-.projects {
-    flex: 5;
-    /* background-color: white; */
+ .projects {
+    flex: 1;
+    background-color: white;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 25px; 
+} 
+  
+
+footer {
+    display: flex;
+    justify-content: space-between;
 }
-.bigcard {
-    flex: 10 1 auto;
-    background-color: blue;
-    width: 100%;
-    height: 500px;
+footer h1 {
+    background-color: crimson;
+    font-size: 46px;
 }
-.smallcard {
-    width: auto;
-    height: 250px;
-    /* flex: 1 1 1; */
-    background-color: red;
+footer nav {
+    font-size: 24px;
+    background-color: burlywood;
+    bottom: 0; 
+    right: 0; 
 }
 
-/* .text-right {
-    justify-content: space-between;
-} 
-.text-left {
-    justify-content: space-between;
-}  */
+aside {
+    width: 30%;
+    text-align: right;
+    font-size: 32px;
+}
+.mainbody, .projects {
+    width: 70%;
+}
