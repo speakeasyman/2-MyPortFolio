@@ -9,46 +9,52 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     
 </head>
+<body>
 <header class="header-top">
-    <h1 class="text-left"> Jonathan Nance</h1>
+    <h1 class="myname"> Jonathan Nance</h1>
 
-    <nav class="text-right">
-        <a href="#">About me</a>
-        <a href="#">Work</a>
-        <a href="#">Contact Me</a>
+    <nav class="topnav">
+        <a href="#aboutme">About me</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact Me</a>
         <a href="#">Resume</a>
     </nav>
 </header>
 
-<body>
     <section class="subheader">
-    <h1 class="text-right" >Cool Subtitle Here!</h1></section>
+    <h2 class="text-right" >Happy to Support!</h2></section>
     <main>
-            <aside class="sidebar">
-                <Header><h3>About Me</h3></Header></aside>
-        <p class="mainbody">My current role is as LIMS admin utilizing Labvantage, and assisting 
-            site stability program for BacT/ALERT Bacteria Culture 
-            Bottle product line. From going through the UNC coding 
-            bootcamp, I have learned addition skill sets HTML, CSS, and Javascript.</p>
-              
-            <aside class="sidebar">
-                <header><H3>Work</H3></aside>
-        <div class="projects">
-                <section  class="bigcard" id="card1">
-                    <header>Project1</header>
-                    <img src="./assets/images/happycat.jpg" alt="Project1" />
-                    <p>Project name</p>
+        <section class="notaside" >
+
+            <aside class="sidebar" id="aboutme">
+                <h3>About Me</h3></aside>
+                <section class="biography">
+                    <p class="mainbody">My current role is as LIMS admin utilizing Labvantage, and assisting 
+                        site stability program for BacT/ALERT Bacteria Culture 
+                        Bottle product line. <br> From going through the UNC coding 
+                        bootcamp, I have learned addition skill sets HTML, CSS, and Javascript.
+                    </p>                    
                 </section>
-                <section class="smallcard">
-                    <header>Project2</header>
-                    <img src="./assets/images/happycat.jpg" alt="Project2" />
-                    <p>Project name</p>
-                </section>
-                <section class="smallcard">
-                    <header>Project3</header>
-                    <img src="./assets/images/happycat.jpg" alt="Project3" />
-                    <p>Project name</p>
-                 </section>
+        </section>
+        <section class="notaside">
+
+            <aside class="sidebar" id="work"> <H3>Work</H3></aside>
+                    <div class="projects">
+                        <section  class="bigcard" id="card1">
+                            <header>Project1</header>
+                            <img src="./assets/images/happycat.jpg" alt="Project1" />
+                            <p>Project name</p>
+                        </section>
+                        <section class="smallcard">
+                            <header>Project2</header>
+                            <img src="./assets/images/happycat.jpg" alt="Project2" />
+                            <p>Project name</p>
+                        </section>
+                        <section class="smallcard">
+                            <header>Project3</header>
+                            <img src="./assets/images/happycat.jpg" alt="Project3" />
+                            <p>Project name</p>
+                        </section>
                 <section class="smallcard">
                     <header>Project4</header>
                     <img src="./assets/images/happycat.jpg" alt="Project4" />
@@ -59,18 +65,19 @@
                     <img src="./assets/images/happycat.jpg" alt="Project5" />
                     <p>Project name</p>
                 </section>
-            </section>
-            </main>
+                    </div>
+        </section>
+                    </main>
             <footer class="contactme">
-                <aside class="sidebar"><h3>Contact Me</h3></aside>
+                <aside class="sidebar" id="contact"><h3>Contact Me</h3></aside>
                     <nav>
-                         <a href="#">555.555.555</a>
+                         <a href="">919.704.6928</a>
                          <a href="#">Website</a>
-                         <a href="#">Git Hub</a>
-                         <a href="#">LinkedIn</a>
+                         <a href="https://github.com/speakeasyman" target="_blank">Git Hub</a>
+                         <a href="https://www.linkedin.com/in/jonathan-nance-20706026/" target="_blank">LinkedIn</a>
                     </nav>
             </footer>
-        </div>
+        
      
 
 

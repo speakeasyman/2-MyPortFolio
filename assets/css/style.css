@@ -6,9 +6,9 @@
     text-decoration: none;
 }
 
-body, #bio {
-    width: 70%;
-}
+
+
+
 .header-top {
 position: relative;
 display: flex;
@@ -37,35 +37,25 @@ background-color: burlywood;
     background-color: purple;
     justify-content: flex-end;
     position: relative;
-    margin: 25px;    
+    margin: opx;    
 }
+
 .aboutme {
     display: flex;
     flex-wrap: wrap;
 }
-.aboutme , .work h1 {
-    font-size: 32px;
-    border-right: 5px solid black;
+.mainbody {
+    font-size: 20px;
+    
+    /* padding-left: 40%; */
+    width: 100%;
 }
-.aboutme p {
-    text-indent: 5%;
-    margin: 5%;
-
-}
-
-main {
-    display: flex;
-    flex-wrap:wrap;
-}
-
  .projects {
-    flex: 1;
-    background-color: white;
-    padding: 20px;
+        background-color: white;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 25px; 
+       flex-wrap: wrap;
+    justify-content: space-between;
+        
 } 
   
 
@@ -85,10 +75,26 @@ footer nav {
 }
 
 aside {
-    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
     text-align: right;
     font-size: 32px;
+    border-right: blueviolet solid 5px;    
+}
+.notaside {
+    display: flex;
+    justify-content: space-around;
 }
 .mainbody, .projects {
     width: 70%;
+}
+
+.bigcard {
+    width: 100%;
+
+}
+
+.smallcard {
+    width: 50%;
 }
